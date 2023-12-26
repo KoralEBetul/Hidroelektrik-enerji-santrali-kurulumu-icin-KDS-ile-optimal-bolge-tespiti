@@ -1,0 +1,281 @@
+/*! header section start */
+.header .search-form{
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background-color: #fff;
+    width: 50rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 75%);
+    transform: scaleY(0); /* search gizledik */
+}
+.header .search-form.active{
+    transform: scaleY(1);
+}
+
+.header .search-form i{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: var(--black-color);
+}
+.header .search-form input{
+    width: 100%;
+}
+ .header .logo img{
+    height: 10rem;
+}
+
+.header {
+    background-color: white;
+    display: flex; /* yan yana hizaladık */
+    align-items: center; /* içeriyi hizaladık   */
+    justify-content: space-between; 
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+}
+.header .navbar .active,
+.header .navbar a:hover {
+    border-color: var(--main-color);
+    padding-bottom: 0.5rem;
+}
+.header .buttons button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    background-color: transparent;
+}
+header .cart-items-container{
+    position: absolute;
+    top: 95%;
+    height: calc(100vh - 9rem);
+    width: 35rem;
+    background-color: #fff;
+    box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
+    right: -100%; /* sepeti görünmez kıldık */
+}
+header .cart-items-container.active{
+    right: 3rem;
+}
+header .cart-items-container .cart-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+header .cart-items-container .cart-item:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0 , 0, 0.75);
+}
+
+
+header .cart-items-container .cart-item .fa-times{ 
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black-color);
+}
+header .cart-items-container .cart-item img{
+    height: 7rem;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0 , 0, 0.75);
+    border-radius: 2.2rem;
+
+}
+header .cart-items-container .cart-item .content h3{
+    font-size: 2rem;
+    color: var(--black-color);
+    padding-bottom: 0.5rem;
+}
+header .cart-items-container .cart-item .content .price{
+    font-size: 1.5rem;
+    color: var(--black-color);
+}
+header .cart-items-container .btn{
+    width: 100%;
+    text-align: center;
+    border-radius: unset;
+}
+
+.header #menu-btn{
+    display: none; /* menü çubuğunu görünmez kıldık */
+}
+
+/* PROFİL 
+
+.header .profile{
+    position: absolute;
+    top: 120%; right: 2rem;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 2rem;
+    text-align: center;
+    width: 30rem;
+    transform: scale(0);
+    transform-origin: top right;
+    transition: .2s linear;
+}
+.header .profile.active{
+    transform: scale(1);
+}
+
+.header .profile img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+}
+.header .profile h3{
+    font-size: 2rem;
+    color: var(--black-color);
+}
+.header .profile span{
+    color: var(--main-color);
+    font-size: 1.6rem;
+}
+.userbtn, .option_userbtn, .delete-userbtn, .inline-userbtn,
+.inline-option_userbtn, .inline-delete-userbtn{
+    border-radius: 5rem;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 1rem;
+}
+.userbtn, .option_userbtn, .delete-userbtn{
+    display: block;
+    width: 100%;
+}
+.inline-userbtn,
+.inline-option_userbtn, .inline-delete-userbtn{
+    display: inline-block;
+}
+.userbtn, .inline-userbtn{
+    background-color: var(--main-color);
+}
+.option_userbtn, .inline-option_userbtn{
+    background-color: gray;
+}
+.delete-userbtn,
+.inline-delete-userbtn{
+    background-color: red;
+}
+
+.userbtn:hover, .option_userbtn:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+.header .icons div{
+    font-size: 2rem;
+    color: var(--black-color);
+    border-radius: .5rem;
+    height: 4.5rem;
+    cursor: pointer;
+    width: 4.5rem;
+    line-height: 4.4rem;
+    background-color: var(--main-color);
+}
+
+ PROFİL */
+
+
+/*! header section end  */
+
+
+
+
+/*! deneme section sttart  */
+
+
+
+.header-two .logo img{
+    height: 10rem;
+}
+
+.header-two {
+    background-color: white;
+    display: flex; /* yan yana hizaladık */
+    align-items: center; /* içeriyi hizaladık   */
+    justify-content: space-between; 
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-two .header-center {
+    background: var(--main-color);
+    text-align: center;
+}
+.header-two .header-center ul{
+    display: inline-flex;
+    list-style: none;
+}
+.header-two .header-center ul li{
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-two .header-center ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/*! deneme section end  */
+
+
+/*! responsive start  */
+@media (max-width: 768px){
+    .header #menu-btn {
+        display: inline-block; /* menü çubuğunu görünür kıldık */
+    }
+    .header .navbar{
+        position: absolute;
+        top: 95%;
+        background-color: #fff;
+        height: calc(100vh - 9rem);
+        width: 30rem;
+        box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
+        right: -100%;
+    }
+    .header .navbar .active{
+        right: 3rem;
+    }
+    .header .navbar a{
+        color: var(--black-color);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
+
+/*! responsive end  */

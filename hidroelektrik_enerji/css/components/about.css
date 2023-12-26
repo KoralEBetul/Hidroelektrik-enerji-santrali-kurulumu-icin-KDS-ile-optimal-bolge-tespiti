@@ -1,0 +1,50 @@
+/*! about start */
+.about .row{
+    display: flex;
+    flex-wrap: wrap;               
+    column-gap: 2rem;
+}
+.about .row .image {
+    flex: 1 1 45rem;
+}
+.about .row img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: white;
+}
+.about .row .content h5{
+    font-size: 2rem;
+    color: var(--black-color);
+}
+.about .row .content p{
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.about .row .content h6{
+    font-size: 1.6rem;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+.btn-about{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3.75rem;
+    border-radius: 30rem;
+    font-size: 1.7rem;
+    color: var(--black-color);
+    background-color: white;  
+}
+.btn-about:hover{
+    opacity: 0.9;
+    border-color: white;
+    color: var(--main-color);
+}
+/*! about end */

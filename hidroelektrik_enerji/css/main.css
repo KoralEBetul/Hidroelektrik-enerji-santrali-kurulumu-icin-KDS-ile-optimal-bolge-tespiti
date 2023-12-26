@@ -1,0 +1,24 @@
+/* global css */
+@import url(base.css);
+@import url(admin_style.css);
+
+
+/* layout css */
+@import url(layout/header.css);
+
+
+/* components css */
+@import url(components/home.css);
+@import url(components/menu.css);
+@import url(components/product.css);
+@import url(components/about.css);
+@import url(components/review.css);
+@import url(components/contact.css);
+@import url(components/blog.css);
+@import url(components/footer.css);
+
+/* pages css */
+@import url(pages/sign.css);
+@import url(pages/randevu.css);
+@import url(pages/antrenordashboard.css);
+@import url(pages/kayit.css);
